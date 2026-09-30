@@ -1,11 +1,19 @@
-# him-tools-01
+# organizer-cli
 
-Utility scripts for CI automation experiments.
+Script kecil untuk merapikan folder Downloads yang berantakan:
+memindahkan file ke subfolder berdasarkan ekstensi (pdf, gambar, video, zip, dll).
 
-## Contents
-- `scripts/` — helper batch scripts
-- - `docs/` — notes
- 
-  - ## Status
-  - Work in progress. More tools will be added as the project evolves.
-  - 
+## Cara pakai
+
+```
+python organizer.py ~/Downloads
+```
+
+## Fitur
+- Sort by extension (mapping bisa diubah di MAP)
+- - Dry-run mode sebelum benar-benar memindah
+  - - Log hasil ke stdout
+   
+    - ## Kenapa dibuat
+    - Folder download tiap minggu selalu kacau, mumpung lagi belajar Python jadi sekalian dibuatkan tool-nya.
+    - 
